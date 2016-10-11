@@ -1,0 +1,2 @@
+# HypnoNerd
+学习
