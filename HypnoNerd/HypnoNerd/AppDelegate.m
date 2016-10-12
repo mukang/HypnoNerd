@@ -26,7 +26,10 @@
     NSBundle *appBundle = [NSBundle mainBundle];
     MKReminderViewController *rvc = [[MKReminderViewController alloc] initWithNibName:@"MKReminderViewController" bundle:appBundle];
     
-    self.window.rootViewController = rvc;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    
+    self.window.rootViewController = tabBarController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
