@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		7A50F20D1DACD68A007EB83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F20C1DACD68A007EB83F /* main.m */; };
 		7A50F2101DACD68A007EB83F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F20F1DACD68A007EB83F /* AppDelegate.m */; };
-		7A50F2131DACD68A007EB83F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F2121DACD68A007EB83F /* ViewController.m */; };
-		7A50F2161DACD68A007EB83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A50F2141DACD68A007EB83F /* Main.storyboard */; };
 		7A50F2181DACD68A007EB83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A50F2171DACD68A007EB83F /* Assets.xcassets */; };
 		7A50F21B1DACD68A007EB83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A50F2191DACD68A007EB83F /* LaunchScreen.storyboard */; };
 		7A50F2261DACD68A007EB83F /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F2251DACD68A007EB83F /* HypnoNerdTests.m */; };
 		7A50F2311DACD68A007EB83F /* HypnoNerdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F2301DACD68A007EB83F /* HypnoNerdUITests.m */; };
+		7A50F2401DACD760007EB83F /* MKHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F23F1DACD760007EB83F /* MKHypnosisViewController.m */; };
+		7A50F2431DACD902007EB83F /* MKHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F2421DACD902007EB83F /* MKHypnosisView.m */; };
+		7A50F2461DACE1E1007EB83F /* MKReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A50F2451DACE1E1007EB83F /* MKReminderViewController.m */; };
+		7A50F2481DACE8F9007EB83F /* MKReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A50F2471DACE8F9007EB83F /* MKReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		7A50F20C1DACD68A007EB83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A50F20E1DACD68A007EB83F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A50F20F1DACD68A007EB83F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A50F2111DACD68A007EB83F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A50F2121DACD68A007EB83F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7A50F2151DACD68A007EB83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A50F2171DACD68A007EB83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A50F21A1DACD68A007EB83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A50F21C1DACD68A007EB83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,13 @@
 		7A50F22C1DACD68A007EB83F /* HypnoNerdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A50F2301DACD68A007EB83F /* HypnoNerdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdUITests.m; sourceTree = "<group>"; };
 		7A50F2321DACD68A007EB83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A50F23E1DACD760007EB83F /* MKHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHypnosisViewController.h; sourceTree = "<group>"; };
+		7A50F23F1DACD760007EB83F /* MKHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHypnosisViewController.m; sourceTree = "<group>"; };
+		7A50F2411DACD902007EB83F /* MKHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHypnosisView.h; sourceTree = "<group>"; };
+		7A50F2421DACD902007EB83F /* MKHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHypnosisView.m; sourceTree = "<group>"; };
+		7A50F2441DACE1E1007EB83F /* MKReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKReminderViewController.h; sourceTree = "<group>"; };
+		7A50F2451DACE1E1007EB83F /* MKReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKReminderViewController.m; sourceTree = "<group>"; };
+		7A50F2471DACE8F9007EB83F /* MKReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				7A50F20E1DACD68A007EB83F /* AppDelegate.h */,
 				7A50F20F1DACD68A007EB83F /* AppDelegate.m */,
-				7A50F2111DACD68A007EB83F /* ViewController.h */,
-				7A50F2121DACD68A007EB83F /* ViewController.m */,
-				7A50F2141DACD68A007EB83F /* Main.storyboard */,
+				7A50F2411DACD902007EB83F /* MKHypnosisView.h */,
+				7A50F2421DACD902007EB83F /* MKHypnosisView.m */,
+				7A50F23E1DACD760007EB83F /* MKHypnosisViewController.h */,
+				7A50F23F1DACD760007EB83F /* MKHypnosisViewController.m */,
+				7A50F2441DACE1E1007EB83F /* MKReminderViewController.h */,
+				7A50F2451DACE1E1007EB83F /* MKReminderViewController.m */,
+				7A50F2471DACE8F9007EB83F /* MKReminderViewController.xib */,
 				7A50F2171DACD68A007EB83F /* Assets.xcassets */,
 				7A50F2191DACD68A007EB83F /* LaunchScreen.storyboard */,
 				7A50F21C1DACD68A007EB83F /* Info.plist */,
@@ -202,6 +212,7 @@
 		7A50F2001DACD68A007EB83F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MK;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mukang;
 				TargetAttributes = {
@@ -243,9 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A50F2481DACE8F9007EB83F /* MKReminderViewController.xib in Resources */,
 				7A50F21B1DACD68A007EB83F /* LaunchScreen.storyboard in Resources */,
 				7A50F2181DACD68A007EB83F /* Assets.xcassets in Resources */,
-				7A50F2161DACD68A007EB83F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A50F2131DACD68A007EB83F /* ViewController.m in Sources */,
+				7A50F2461DACE1E1007EB83F /* MKReminderViewController.m in Sources */,
+				7A50F2401DACD760007EB83F /* MKHypnosisViewController.m in Sources */,
+				7A50F2431DACD902007EB83F /* MKHypnosisView.m in Sources */,
 				7A50F2101DACD68A007EB83F /* AppDelegate.m in Sources */,
 				7A50F20D1DACD68A007EB83F /* main.m in Sources */,
 			);
@@ -308,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A50F2141DACD68A007EB83F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A50F2151DACD68A007EB83F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A50F2191DACD68A007EB83F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MKHypnosisViewController.h"
+#import "MKReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MKHypnosisViewController *hvc = [[MKHypnosisViewController alloc] init];
+    
+    NSBundle *appBundle = [NSBundle mainBundle];
+    MKReminderViewController *rvc = [[MKReminderViewController alloc] initWithNibName:@"MKReminderViewController" bundle:appBundle];
+    
+    self.window.rootViewController = rvc;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
